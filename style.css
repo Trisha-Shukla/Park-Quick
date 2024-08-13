@@ -170,3 +170,11 @@ body {
   flex-direction: column;
   gap: 20px;
 }
+.cursor{
+    cursor: pointer;
+    transition: transform 300ms ease-in;
+  }
+  .cursor:hover,.cursor:focus,.cursor:active{
+    transform: scale(1.1);
+  }
+  
