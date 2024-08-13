@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+  font-family: Poppins;
+  padding-bottom: 120px;
+}
+.top {
+  width: 360px;
+  height: 252px;
+}
+.date {
+  background-image: url("Images/Group\ 438.png");
+  background-position: center;
+  background-size: cover;
+  width: 360px;
+  height: 252px;
+  position: relative;
+}
+
+.services {
+  width: 328px;
+  height: 229px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: absolute;
+  top: 135px;
+  left: 16px;
+  z-index: 100;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  box-shadow: 1px 0px 10px #595959;
+  color: black;
+}
+.service-item {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.service-item-content > div {
+  width: 51px;
+  height: 41px;
+}
+.service-item-content > p {
+  font-size: 10px;
+}
+.service-item-content > div > img {
+  width: 28px;
+  height: 28px;
+}
+.fast-recharge {
+  width: 328px;
+  height: 329px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  top: 387px;
+  left: 16px;
+  z-index: 100;
+  padding: 5px 10px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  box-shadow: 1px 0px 10px #595959;
+  color: black;
+}
+.fast-rechange-flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+.fast-rechange-flex > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.fast-rechange-flex > div > div {
+  width: 51px;
+  height: 41px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0fffa;
+}
+.fast-rechange-flex > div > p {
+  font-size: 10px;
+  line-height: 13px;
+  font-weight: 500;
+  text-align: center;
+}
+.fast-rechange-flex > div > div > img {
+  width: 24px;
+  height: 24px;
+}
+.other {
+  position: absolute;
+  width: 328px;
+  height: 132px;
+  top: 927px;
+  left: 16px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  box-shadow: 1px 0px 10px #595959;
+  color: black;
+  padding: 10px;
+}
+.gonna-travel {
+  width: 328px;
+  height: 127px;
+  top: 1282px;
+  left: 16px;
+  position: absolute;
+  border-radius: 15px;
+  background-color: #ffffff;
+  box-shadow: 1px 0px 10px #595959;
+  color: black;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.Recharge {
+  width: 328px;
+  height: 234px;
+  top: 1597px;
+  left: 16px;
+  position: absolute;
+  border-radius: 15px;
+  background-color: #ffffff;
+  box-shadow: 1px 0px 10px #595959;
+  color: black;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.Car-center {
+  width: 328px;
+  height: 140px;
+  top: 2015px;
+  left: 16px;
+  position: absolute;
+  border-radius: 15px;
+  background-color: #ffffff;
+  box-shadow: 1px 0px 10px #595959;
+  color: black;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.offer {
+  width: 328px;
+  height: 127px;
+  top: 2435px;
+  left: 16px;
+  position: absolute;
+  border-radius: 15px;
+  background-color: #ffffff;
+  box-shadow: 1px 0px 10px #595959;
+  color: black;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
